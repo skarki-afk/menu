@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inria Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h3{
+  font-family: 'Imprima', sans-serif;
+}
+
+/* .slick-slider .slick-next{
+  right: 5px;
+}
+
+.slick-slider .slick-prev{
+  left: 5px;
+  z-index: 1;
+}
+
+.slick-slider{
+  position: relative;
+}
+
+.slick-slider .slick-dots{
+  bottom: 135px;
+  z-index: 1;
+}
+
+.slick-slider .slick-dots li button:before{
+  color:black;
+}
+
+.slick-slider .slick-dots li.slick-active button:before{
+  color: black;
+} */
